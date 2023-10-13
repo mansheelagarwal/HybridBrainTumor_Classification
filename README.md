@@ -1,4 +1,5 @@
 # HybridBrainTumor_Classification
+## (UPDATED)
 This project is assigned to me as a part of the pre-task for my upcoming internship at Baekseok University, Cheonan, South Korea. In this project, I am involved in designing a hybrid brain tumor classifier for MRI scans using Generative Adversarial Network (GAN) and Random Forest (RF) models.
 ## Why GAN and RF?
 When it comes to medical data, you would want to play both safe and smart.  GAN is a framework that helps you generate duplicate synthetic data and discriminate that data using its generator and discriminator networks which solves the issue of data imbalance and scarcity. It aids in accurate and enhanced feature extraction and does not use sensitive patient information to generate data, which is one of the most important reasons why I chose to work with it. Already having GAN performing efficient feature extraction on the MRI scans, I needed Random Forest which is renowned for its robust classification. 
