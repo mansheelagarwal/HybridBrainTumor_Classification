@@ -6,6 +6,9 @@ When it comes to medical data, you would want to play both safe and smart.  GAN 
 If you cannot access the architecture file, you can view it here:
 ![Architecture GAN_RF](https://github.com/mansheelagarwal/HybridBrainTumorClassification/assets/76102724/98f60d41-2dcc-4d31-a3a5-473859b10f18)
 
+### Note to viewers
+The uploaded code is a work in progress, and it's possible that there are errors or unresolved issues.
+
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
