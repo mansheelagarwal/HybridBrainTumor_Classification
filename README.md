@@ -5,7 +5,10 @@ First, the project uses a neural network model to classify the brain MRI images 
 - Meningioma
 - No Tumor
 
-Then I started working on the No Tumor dataset to see whether certain rare tumor cases were erringly classified as having no tumor. I used a Generative Adversarial Network (GAN) model to augment more images to mitigate bias as much as possible and then checked those images for certain characteristics that might signal the presence of a rare case of tumor. In the end, a binary classification model (here CNN) was trained with the help of a labeled dataset ( No Tumor / Rare Case ) and then tested on an unseen chunk of the same dataset. 
+Then I started working on the No Tumor dataset to see whether certain rare tumor cases were erringly classified as having no tumor. I used a Generative Adversarial Network (GAN) model to augment more images to mitigate bias as much as possible and then checked those images for certain characteristics that might signal the presence of a rare case of the tumor. In the end, a binary classification model (here CNN) was trained with the help of a labeled dataset ( No Tumor / Rare Case ) and then tested on an unseen chunk of the same dataset. 
+
+## Note
+The GAN model has not been trained for more than one epoch (as of now) due to a lack of certain resources. The code will be updated as soon as I run it on a better GPU.
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
