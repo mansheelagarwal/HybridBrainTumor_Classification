@@ -10,6 +10,7 @@ Then I started working on the No Tumor dataset to see whether certain rare tumor
 ## Note
 The GAN model has not been trained for more than one epoch (as of now) due to a lack of certain resources. The code will be updated as soon as I run it on a better GPU.
 
+## License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
